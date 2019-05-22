@@ -7,7 +7,12 @@ public class CreditCardProcessorFactory {
 
     public static CreditCardProcessor getInstance() {
         if (instance == null) {
-            return new SquareCreditCardProcessor();
+            return new SquareCreditCardProcessor() {
+                @Override
+                public ChargeResult charge(CreditCard creditCard, Object amount) {
+                    return null;
+                }
+            };
         }
 
         return instance;

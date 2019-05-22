@@ -1,10 +1,5 @@
-public class CreditCardProcessor {
+public interface CreditCardProcessor {
 
-    public static void PaypalCreditCardProcessor(){
 
-    }
-
-    public ChargeResult charge(CreditCard creditCard, Object amount) {
-        return null;
-    }
+    public ChargeResult charge(CreditCard creditCard, Object amount);
 }

@@ -1,2 +1,2 @@
-public class SquareCreditCardProcessor extends CreditCardProcessor {
+public abstract class SquareCreditCardProcessor implements CreditCardProcessor {
 }
