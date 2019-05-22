@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Users {
 
@@ -23,10 +23,4 @@ public class Users {
         this.surname = surname;
     }
 
-
-    public static void users(){
-
-
-
-    }
 }
