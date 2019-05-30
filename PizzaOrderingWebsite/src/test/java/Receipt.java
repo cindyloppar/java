@@ -4,6 +4,6 @@ public class Receipt {
     }
 
     public int getAmountOfCharge() {
-        return 100;
+        return getAmountOfCharge();
     }
 }

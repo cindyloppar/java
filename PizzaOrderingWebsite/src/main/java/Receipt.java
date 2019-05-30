@@ -1,14 +1,18 @@
 public class Receipt {
     public static Receipt forSuccessfulCharge(Object amount) {
-        return null;
+        int charged = 100;
+        return forSuccessfulCharge(charged);
     }
 
     public static Receipt forDeclinedCharge(Object declineMessage) {
-     return null;
+        Object declined = "Declined charges sorry!";
+        return forDeclinedCharge(declined);
+
     }
 
     public static Receipt forSystemFailure(String message) {
-        return null;
+       String greet = "System failed sorry!";
+        return Receipt.forSystemFailure(greet);
     }
 
     public boolean hasSuccessfulCharge() {

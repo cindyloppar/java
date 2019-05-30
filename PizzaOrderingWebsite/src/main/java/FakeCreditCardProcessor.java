@@ -1,4 +1,4 @@
-public class FakeCreditCardProcessor extends CreditCardProcessor {
+public abstract class FakeCreditCardProcessor implements CreditCardProcessor {
     public CreditCard getCardOfOnlyCharge() {
         return null;
     }

@@ -5,6 +5,6 @@ public class ChargeResult {
 
     public Object getDeclineMessage() {
         System.out.println("Sorry no funds");
-        return null;
+        return 0;
     }
 }

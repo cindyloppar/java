@@ -4,6 +4,6 @@ public class PizzaOrder {
 
     public Object getAmount() {
         System.out.println("R50000.00");
-        return null;
+        return 50000.00;
     }
 }

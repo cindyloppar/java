@@ -1,6 +1,6 @@
 public class FakeCreditCardProcessor {
     public CreditCard getCardOfOnlyCharge() {
-        return null;
+        return getCardOfOnlyCharge();
     }
 
     public int getAmountOfOnlyCharge() {

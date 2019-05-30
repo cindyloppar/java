@@ -17,4 +17,7 @@ public class CreditCardProcessorFactory {
 
         return instance;
     }
+
+    public static void setInstance(FakeCreditCardProcessor processor) {
+    }
 }
