@@ -4,8 +4,7 @@ public class RealBillingService implements BillingService {
     private final CreditCardProcessor processor;
     private final TransactionLog transactionLog;
 
-    public RealBillingService(CreditCardProcessor processor,
-                              TransactionLog transactionLog) {
+    public RealBillingService(CreditCardProcessor processor,TransactionLog transactionLog) {
         this.processor = processor;
         this.transactionLog = transactionLog;
     }

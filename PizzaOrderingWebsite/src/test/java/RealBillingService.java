@@ -3,9 +3,10 @@ public class RealBillingService {
 
     }
 
-    public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
-        System.out.println("hello");
+    public  Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
 
-        return null;
+            System.out.println("hello");
+
+        return new Receipt();
     }
 }

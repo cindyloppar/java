@@ -1,5 +1,5 @@
 public interface CreditCardProcessor {
 
 
-    public ChargeResult charge(CreditCard creditCard, Object amount);
+     ChargeResult charge(CreditCard creditCard, Object amount);
 }

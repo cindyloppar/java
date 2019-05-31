@@ -3,7 +3,7 @@ public class Receipt {
         return true;
     }
 
-    public int getAmountOfCharge() {
-        return getAmountOfCharge();
+    public int getAmountOfCharge(){
+        return 100;
     }
 }

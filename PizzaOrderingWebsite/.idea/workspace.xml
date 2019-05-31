@@ -3,28 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="e67e27c9-a03b-4277-9507-7cee5f8b8329" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ChargeResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ChargeResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/CreditCardProcessorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CreditCardProcessorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/BillingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/BillingService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/FakeCreditCardProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FakeCreditCardProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/PizzaOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PizzaOrder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/RealBillingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/RealBillingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Receipt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/SquareCreditCardProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/SquareCreditCardProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/CreditCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/CreditCard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/FakeCreditCardProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/FakeCreditCardProcessor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/PizzaOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PizzaOrder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/RealBillingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/RealBillingService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/RealBillingServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/RealBillingServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Receipt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ChargeResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChargeResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CreditCardProcessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreditCardProcessorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreditCardProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FakeCreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FakeCreditCardProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PizzaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PizzaOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RealBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RealBillingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SquareCreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SquareCreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PizzaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PizzaOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RealBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RealBillingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RealBillingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RealBillingServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TransactionLogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransactionLogFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,38 +46,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CreditCard.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RealBillingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Receipt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-              <folding>
-                <element signature="e#64#65#0" expanded="true" />
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ChargeResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding>
-                <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#90#91#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -85,39 +57,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FakeCreditCardProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RealBillingServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SquareCreditCardProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BillingService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PizzaOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CreditCardProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Receipt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#64#65#0" expanded="true" />
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,17 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RealBillingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="210">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CreditCard.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PizzaOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -143,8 +123,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RealBillingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BillingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,31 +177,31 @@
         <option value="$PROJECT_DIR$/src/test/java/groovy/util/GroovyTestCase.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/groovy/util/InMemoryTransactionLog.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/groovy/util/FakeCreditCardProcessor.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/BillingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/InMemoryTransactionLog.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/RealBillingServiceTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/RealBillingServiceTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/CreditCard.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TransactionLogFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/InMemoryTransactionLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RealBillingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/InMemoryTransactionLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CreditCardProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/PaypalCreditCardProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/PizzaOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/ChargeResult.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PizzaOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Receipt.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Receipt.java" />
         <option value="$PROJECT_DIR$/src/main/java/CreditCardProcessorFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SquareCreditCardProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PizzaOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RealBillingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BillingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreditCardProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TransactionLogFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreditCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/FakeCreditCardProcessor.java" />
         <option value="$PROJECT_DIR$/src/test/java/RealBillingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SquareCreditCardProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.java" />
         <option value="$PROJECT_DIR$/src/test/java/RealBillingServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Receipt.java" />
       </list>
     </option>
   </component>
@@ -267,7 +271,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559201630706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559288999411" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -368,8 +372,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RealBillingServiceTest" />
-        <item itemvalue="JUnit.RealBillingServiceTest.testSuccessfulCharge" />
         <item itemvalue="JUnit.RealBillingServiceTest.testSuccessfulCharge (1)" />
+        <item itemvalue="JUnit.RealBillingServiceTest.testSuccessfulCharge" />
         <item itemvalue="JUnit.RealBillingServiceTest (2)" />
         <item itemvalue="JUnit.GroovyTestCase" />
       </list>
@@ -390,48 +394,50 @@
       <workItem from="1558534321076" duration="1169000" />
       <workItem from="1558553035483" duration="3717000" />
       <workItem from="1559112705850" duration="15639000" />
-      <workItem from="1559198481178" duration="1811000" />
+      <workItem from="1559198481178" duration="10498000" />
+      <workItem from="1559224337530" duration="1936000" />
+      <workItem from="1559247533922" duration="6062000" />
+      <workItem from="1559285230172" duration="2629000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RealBillingServiceTest_testSuccessfulCharge_(1) - 2019.05.29 at 11h 32m 09s.xml">
+    <history-entry file="RealBillingServiceTest - 2019.05.30 at 23h 14m 47s.xml">
+      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealBillingServiceTest - 2019.05.30 at 23h 28m 38s.xml">
+      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealBillingServiceTest - 2019.05.30 at 23h 31m 59s.xml">
+      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealBillingServiceTest - 2019.05.30 at 23h 37m 30s.xml">
+      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealBillingServiceTest - 2019.05.30 at 23h 49m 53s.xml">
+      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealBillingServiceTest - 2019.05.30 at 23h 51m 16s.xml">
+      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealBillingServiceTest - 2019.05.30 at 23h 57m 35s.xml">
+      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealBillingServiceTest_testSuccessfulCharge_(1) - 2019.05.31 at 00h 00m 50s.xml">
       <configuration name="RealBillingServiceTest.testSuccessfulCharge (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.29 at 11h 36m 12s.xml">
+    <history-entry file="RealBillingServiceTest - 2019.05.31 at 09h 27m 06s.xml">
       <configuration name="RealBillingServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.29 at 11h 36m 44s.xml">
-      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.29 at 11h 37m 31s.xml">
-      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.29 at 11h 40m 46s.xml">
-      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.29 at 11h 41m 58s.xml">
-      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.29 at 11h 46m 23s.xml">
-      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RealBillingServiceTest_testSuccessfulCharge - 2019.05.29 at 11h 52m 31s.xml">
-      <configuration name="RealBillingServiceTest.testSuccessfulCharge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.29 at 13h 08m 49s.xml">
-      <configuration name="RealBillingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RealBillingServiceTest - 2019.05.30 at 09h 24m 06s.xml">
+    <history-entry file="RealBillingServiceTest - 2019.05.31 at 09h 27m 32s.xml">
       <configuration name="RealBillingServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50692000" />
+    <option name="totallyTimeSpent" value="70006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -439,23 +445,23 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26613545" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27091634" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49880478" visible="true" weight="0.40155038" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49800798" weight="0.24651162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32921174" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996016" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4996016" visible="true" weight="0.5503876" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011952" side_tool="true" weight="0.32766616" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49880478" weight="0.65891474" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50199205" side_tool="true" weight="0.65891474" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49800798" weight="0.65891474" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4996016" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,12 +480,12 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2613546" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27091634" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32921174" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880478" weight="0.32868218" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49800798" visible="true" weight="0.24651162" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -487,10 +493,10 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996016" weight="0.32868218" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011952" side_tool="true" weight="0.32766616" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49880478" weight="0.65891474" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50199205" side_tool="true" weight="0.65891474" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49800798" weight="0.65891474" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4996016" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -523,13 +529,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/RealBillingServiceTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/java/RealBillingServiceTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionLogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/InMemoryTransactionLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -548,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PizzaOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -596,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CreditCardProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -630,26 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PizzaOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CreditCardProcessorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -657,37 +622,6 @@
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InMemoryTransactionLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CreditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Receipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -703,56 +637,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FakeCreditCardProcessor.java">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/FileOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1320">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreditCard.java">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/BufferedOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="82">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RealBillingService.java">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/sun/nio/cs/StreamEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="82">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BillingService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionLogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InMemoryTransactionLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreditCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RealBillingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SquareCreditCardProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="20" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreditCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FakeCreditCardProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PizzaOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealBillingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BillingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RealBillingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PizzaOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RealBillingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FakeCreditCardProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreditCardProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#64#65#0" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

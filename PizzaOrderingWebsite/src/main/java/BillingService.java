@@ -1,5 +1,7 @@
 public interface BillingService {
 
-     public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) throws UnreachableException;
+     public static Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) throws UnreachableException {
+          return null;
+     }
 
 }

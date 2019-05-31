@@ -7,7 +7,7 @@ public class RealBillingServiceTest extends TestCase {
     private final CreditCard creditCard = new CreditCard("1234", 11, 2010);
 
     private final InMemoryTransactionLog transactionLog = new InMemoryTransactionLog();
-    private final FakeCreditCardProcessor processor = new FakeCreditCardProcessor();
+    private final FakeCreditCardProcessor processor = new FakeCreditCardProcessor(creditCard);
 
     @Override public void setUp() {
         TransactionLogFactory.setInstance(transactionLog);
@@ -21,7 +21,7 @@ public class RealBillingServiceTest extends TestCase {
 
 
 
-    public void testSuccessfulCharge() {
+    public void testSuccessfulCharge() throws UnreachableException {
         RealBillingService billingService = new RealBillingService(processor,transactionLog);
        Receipt receipt = billingService.chargeOrder(order, creditCard);
 
@@ -31,7 +31,10 @@ public class RealBillingServiceTest extends TestCase {
         assertEquals(100, processor.getAmountOfOnlyCharge());
         assertTrue(transactionLog.wasSuccessLogged());
     }
+
+    public void testChargeOrder() {
     }
+}
 
 
 
